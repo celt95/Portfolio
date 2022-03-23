@@ -1,3 +1,24 @@
+:root {
+  --main-font: "Poppins", sans-serif;
+  --secondary-font: "Baloo 2", cursive;
+}
+h1,
+h2,
+h3 {
+  color: black;
+  font-family: var(--main-font);
+}
+h2 {
+  font-weight: 400 !important;
+}
 h1 {
+  font-weight: 500 !important;
+}
+h3 {
+  font-weight: 300 !important;
+}
+.hero {
+  background: white;
   text-align: center;
+  padding: 160px 20px;
 }
