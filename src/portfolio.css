@@ -34,3 +34,6 @@ p {
   text-align: center;
   padding: 10px;
 }
+.navigation-content {
+  font-family: var(--main-font);
+}
