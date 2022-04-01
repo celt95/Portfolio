@@ -1,10 +1,12 @@
 :root {
   --main-font: "Poppins", sans-serif;
   --secondary-font: "Baloo 2", cursive;
+  --main-color: rgb(255, 193, 8, 10%);
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: black;
   font-family: var(--main-font);
 }
@@ -14,13 +16,22 @@ h2 {
 h1 {
   font-weight: 500 !important;
 }
-h3 {
+h3,
+h4 {
   font-weight: 300 !important;
 }
 .hero {
   background: #e8e3dc;
   text-align: center;
   padding: 160px 20px;
+}
+.about-content {
+  padding: 160px;
+}
+.about-content img {
+  max-width: 100%;
+  padding: 5px;
+  border: 0.5px solid #ffc108;
 }
 .projects-introduction {
   font-family: var(--secondary-font);
@@ -36,4 +47,13 @@ p {
 }
 .navigation-content {
   font-family: var(--main-font);
+}
+.contact-box {
+  background: var(--main-color);
+  padding: 20px 30px;
+  margin: 20px 30px;
+}
+.contact-box a {
+  text-decoration: none;
+  color: black;
 }
