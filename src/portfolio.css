@@ -57,3 +57,10 @@ p {
   text-decoration: none;
   color: black;
 }
+footer a {
+  color: black;
+  padding: 20px;
+}
+footer a:hover {
+  color: #ffc108;
+}
