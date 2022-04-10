@@ -1,7 +1,7 @@
 :root {
   --main-font: "Poppins", sans-serif;
   --secondary-font: "Baloo 2", cursive;
-  --main-color: rgb(255, 193, 8, 10%);
+  --main-color: rgba(8, 144, 255, 0.1);
 }
 h1,
 h2,
@@ -20,11 +20,26 @@ h3,
 h4 {
   font-weight: 300 !important;
 }
+p {
+  font-family: var(--secondary-font);
+  font-weight: 400 !important;
+  text-align: center;
+  padding: 10px;
+}
 .hero {
   background: #e8e3dc;
   text-align: center;
   padding: 160px 20px;
 }
+.hero .main-contact-btn {
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 15px 30px;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
 .about-content {
   padding: 160px;
 }
@@ -39,22 +54,22 @@ h4 {
   font-size: 35px;
   padding: 20px 20px;
 }
-p {
-  font-family: var(--secondary-font);
-  font-weight: 400 !important;
-  text-align: center;
-  padding: 10px;
-}
+
 .navigation-content {
   font-family: var(--main-font);
 }
 .contact-box {
   background: var(--main-color);
   padding: 20px 30px;
-  margin: 20px 30px;
+  margin: 20px auto;
+  max-width: 500px;
 }
 .contact-box a {
   text-decoration: none;
+  color: black;
+  font-family: var(--secondary-font);
+}
+.contact-box a:hover {
   color: black;
 }
 footer a {
