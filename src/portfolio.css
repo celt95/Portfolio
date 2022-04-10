@@ -43,6 +43,10 @@ p {
 .about-content {
   padding: 160px;
 }
+.project-images {
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px var(--main-color);
+}
 .about-content img {
   max-width: 100%;
   padding: 5px;
@@ -78,4 +82,15 @@ footer a {
 }
 footer a:hover {
   color: #ffc108;
+}
+@media (max-width: 991px) {
+  .project-description {
+    padding: 20px;
+  }
+  .load-project-button {
+    margin-bottom: 20px;
+  }
+  .about-content {
+    padding: 90px;
+  }
 }
